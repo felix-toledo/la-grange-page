@@ -7,12 +7,10 @@
 
 .logo{
     height: 12vh;
-    margin-left: 40px!important;
 }
 
 .navbar-nav{
     text-align: right;
-    margin-right: 40px!important;
 }
 
 .nav-item{
@@ -33,7 +31,6 @@
     width: 2.5rem;
     height: 7vh;
     margin-bottom: 5px;
-    margin-right: 40px;
     background-color: #EEE5E9;
     border: #FF7700 solid 2px !important;
     box-shadow: 1px 1px 1px 1px #FF7700;
@@ -70,5 +67,72 @@ main{
         color: #FF7700;
         line-height: 60px;
         margin-left: 15px;
+    }
+}
+
+.indexMain{
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    h1{
+        font-family: 'Gentium Plus', serif;
+        font-weight: 800;
+        font-size: 40px;
+        color: #1D0D04;
+        text-shadow: 0px 0px 3px  white;
+    }
+}
+
+figure{
+    width: 70vw;
+    margin-top: 50px;
+    position: relative;
+}
+
+.portadaImagen{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: #1D0D04 solid 2px;
+    border-radius: 4px;
+}
+
+.playButton{
+    width: 90px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transition: all 0.5s;
+    &:hover{ 
+        filter: sepia(50%) invert(75%);
+        cursor: pointer;
+    }
+    &:active{
+        transform: rotate(1turn);
+    }
+}
+
+@media only screen and (min-width: 940px){
+    .logo{
+        margin-left: 40px;
+    }
+    .navbar-nav{
+        margin-right: 40px;
+    }
+    main{
+        background-image: url(../media/images/main-background.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+    .indexMain{
+        h1{
+            font-size: 70px;
+        }
+    }
+    figure{
+        width: 35vw;
     }
 }
