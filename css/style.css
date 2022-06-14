@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;1,700&family=Maven+Pro:wght@400;500;600&display=swap");
+.navbar {
+  background-color: #1D0D04;
+  padding: 0 !important;
+}
+
+.logo {
+  height: 12vh;
+  margin-left: 40px !important;
+}
+
+.navbar-nav {
+  text-align: right;
+  margin-right: 40px !important;
+}
+
+.nav-item {
+  font-family: "Gentium Plus", serif;
+  margin-left: 20px;
+}
+.nav-item a {
+  color: #EEE5E9;
+  padding: 0;
+  line-height: 20px;
+}
+.nav-item a:hover {
+  color: #EEE5E9;
+  border-bottom: #EEE5E9 2px solid;
+}
+
+.navbar-toggler {
+  width: 2.5rem;
+  height: 7vh;
+  margin-bottom: 5px;
+  margin-right: 40px;
+  background-color: #EEE5E9;
+  border: #FF7700 solid 2px !important;
+  box-shadow: 1px 1px 1px 1px #FF7700;
+  border-radius: 7px;
+}
+.navbar-toggler:hover {
+  border: black solid 2px;
+  box-shadow: 0px 0px 5px 2px white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.navbar-toggler-icon {
+  margin-left: -8px;
+  height: 100%;
+  color: #1D0D04;
+}
+
+main {
+  width: 100%;
+  height: 88vh;
+  background-color: #1D0D04;
+  background-image: url(../media/images/index-background.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0px -20px 7px 30px white;
+}
+
+.social-media {
+  margin-top: 14vh;
+  text-align: right;
+  margin-right: 50px;
+}
+.social-media .fa-brands {
+  color: #FF7700;
+  line-height: 60px;
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

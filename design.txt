@@ -1,0 +1,21 @@
+/////////FUENTES 
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;1,700&family=Maven+Pro:wght@400;500;600&display=swap');
+</style>
+
+font-family: 'Gentium Plus', serif;
+font-family: 'Maven Pro', sans-serif;////////
+
+
+
+//////COLORES
+White: #EEE5E9
+Smoky Black: #1D0D04;
+Safety Orange: #FF7700;
+
+
+
+
+
+
