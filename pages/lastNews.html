@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.png?">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>La Grange - Inicio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png?">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Melodias - La Grange</title>
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-sm">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="logo" src="./media/images/logo.jpg" alt="Band Logo"></a>
+          <a class="navbar-brand" href="#"><img class="logo" src="../media/images/logo.jpg" alt="Band Logo"></a>
           <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <i class="navbar-toggler-icon"></i>
           </button>
           <div class="collapse justify-content-end navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav align-items-end">
               <li class="nav-item">
-                <a class="nav-link" href="#">INICIO</a>
+                <a class="nav-link" href="../index.html">INICIO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">BANDA</a>
@@ -40,19 +40,17 @@
             </ul>
           </div>
         </div>
-      </nav>
-    <div class="social-media">
-        <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
-        <a href=""><i class="fa-brands fa-tiktok fa-2x"></i></a>            
-        <a href=""><i class="fa-brands fa-soundcloud fa-2x"></i></a>
-        <a href=""><i class="fa-brands fa-spotify fa-2x"></i></a>
-    </div>
-    <main class="indexMain">
-      <h1>Escuchá Melodías acá!</h1>
-      <figure>
-        <img class="portadaImagen" src="./media/images/melodias.jpg" alt="Melodías Portada">
-        <a class="playButton" href="./pages/lastNews.html"><img src="./media/images/play-button.png" alt="Play Button"></a>
-      </figure>
+    </nav>
+    <main class="newsMain">
+      <div class="l-container">
+        <div class="b-game-card">
+            <a href="https://open.spotify.com/track/0E9Yq6PzD3Hhtzp5mz7Njp?si=cb4a90f5d5304afd" target="_blank"><div class="b-game-card__cover" style="background-image: url(../media/images/newsCards/spotify.jpg);"></div></a>
+        </div>
+        <iframe width="100%" height="100%" class="b-iframe" src="https://www.youtube.com/embed/ifX7KP0a5AE" title="Melodias - Youtube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <div class="b-game-card">
+          <a href="https://www.youtube.com/watch?v=ifX7KP0a5AE" target="_blank"><div class="b-game-card__cover" style="background-image: url(../media/images/newsCards/youtube.jpg);"></div></a>
+        </div>
+      </div>
     </main>
     <footer>
         <p>Desarrollado por Felix Toledo</p>
